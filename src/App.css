@@ -1,0 +1,46 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header,main{
+  font-size: 2 rem;
+  font-weight: 700;
+  padding: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header{
+  align-items: center;
+}
+
+h1{
+  font-size: 900;
+  margin: 0;
+  font-size: 6rem;
+
+}
+
+p{
+  text-align: center;
+}
+
+main img{
+  width: 50%;
+}
+
+header.dark{
+  background-color: black;
+  color: orange;
+}
+
+main.dark{
+  background-color: black;
+  color: white;
+}
+
+main.dark p{
+  color: orange;
+}
